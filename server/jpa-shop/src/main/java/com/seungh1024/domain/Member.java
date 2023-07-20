@@ -3,6 +3,8 @@ package com.seungh1024.domain;
 import lombok.Getter;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Getter
@@ -19,10 +21,12 @@ public class Member {
 
     private String zipCode;
 
+    @OneToMany(mappedBy = "member")
+    private List<Order> orders = new ArrayList<>();
+
     public Member(){};
 
-    public Member(Long id, String name, String city, String street, String zipCode){
-        this.id = id;
+    public Member(String name, String city, String street, String zipCode){
         this.name = name;
         this.city = city;
         this.street = street;

@@ -12,10 +12,13 @@ public class OrderItem {
     @Column(name = "order_item_id")
     private Long id;
 
-    @Column(name = "order_id")
-    private Long orderId;
-    @Column(name = "item_id")
-    private Long itemId;
+    @ManyToOne
+    @JoinColumn(name = "order_id")
+    private Order order;
+
+    @ManyToOne
+    @JoinColumn(name = "item_id")
+    private Item item;
 
     private Integer orderPrice;
 
@@ -23,11 +26,18 @@ public class OrderItem {
 
     public OrderItem(){}
 
-    public OrderItem(Long id, Long orderId, Long itemId, Integer orderPrice, Integer count) {
+    public OrderItem( Integer orderPrice, Integer count) {
         this.id = id;
-        this.orderId = orderId;
-        this.itemId = itemId;
         this.orderPrice = orderPrice;
         this.count = count;
+    }
+
+    public void changeOrder(Order order){
+        this.order = order;
+        order.getOrderItems().add(this);
+    }
+
+    public void changeItem(Item item){
+        this.item = item;
     }
 }
