@@ -40,3 +40,12 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### env ###
+!**/properties/
+/properties/
+env.properties
+
+**/META-INF/
+resources/META-INF/
+persistence.xml
