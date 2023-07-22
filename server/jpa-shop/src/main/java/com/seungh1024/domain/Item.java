@@ -3,6 +3,8 @@ package com.seungh1024.domain;
 import lombok.Getter;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Getter
@@ -17,6 +19,9 @@ public class Item {
     private Integer price;
 
     private Integer stockQuantity;
+
+    @ManyToMany(mappedBy = "items")
+    private List<Category> categories = new ArrayList<>();
 
     public Item() {
     }
