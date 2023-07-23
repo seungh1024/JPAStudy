@@ -1,5 +1,6 @@
 package com.seungh1024;
 
+import com.seungh1024.domain.Book;
 import com.seungh1024.domain.Order;
 import com.seungh1024.domain.OrderItem;
 import com.seungh1024.domain.OrderStatus;
@@ -18,15 +19,13 @@ public class JpaMain {
         tx.begin();
 
         try{
-            Order order = new Order(LocalDateTime.now(), OrderStatus.ORDER);
-            em.persist(order);
-            OrderItem orderItem = new OrderItem(1000,1);
-            orderItem.changeOrder(order);
 
-            System.out.println("==============");
-            em.persist(orderItem);
-            OrderItem orderItem1 = em.find(OrderItem.class, orderItem.getId());
-            System.out.println(orderItem1.getOrderPrice());
+            Book book = new Book();
+            book.setName("JPA");
+            book.setAuthor("kim");
+            book.setIsbn("kkkkk");
+            em.persist(book);
+
             tx.commit();
         }catch(Exception e){
             e.printStackTrace();

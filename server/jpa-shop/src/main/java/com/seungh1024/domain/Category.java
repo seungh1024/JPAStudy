@@ -8,7 +8,7 @@ import java.util.List;
 
 @Entity
 @Getter
-public class Category {
+public class Category extends BaseEntity{
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "category_id")

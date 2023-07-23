@@ -8,7 +8,7 @@ import java.util.List;
 
 @Entity
 @Getter
-public class Team {
+public class Team extends BaseEntity{
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "team_id")

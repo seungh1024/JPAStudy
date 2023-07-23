@@ -13,7 +13,7 @@ import java.util.Date;
 @Setter
 @ToString
 //@SequenceGenerator(name = "member_seq_generator", sequenceName = "member_seq")
-public class Member {
+public class Member extends BaseEntity{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "member_id")
