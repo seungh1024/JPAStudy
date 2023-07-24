@@ -15,21 +15,16 @@ public class Member extends BaseEntity{
     private Long id;
     private String name;
 
-    private String city;
-
-    private String street;
-
-    private String zipCode;
+    @Embedded
+    private Address address;
 
     @OneToMany(mappedBy = "member")
     private List<Order> orders = new ArrayList<>();
 
     public Member(){};
 
-    public Member(String name, String city, String street, String zipCode){
+    public Member(String name, Address address){
         this.name = name;
-        this.city = city;
-        this.street = street;
-        this.zipCode =zipCode;
+        this.address = address;
     }
 }

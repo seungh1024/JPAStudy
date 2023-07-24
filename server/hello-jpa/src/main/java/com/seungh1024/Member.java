@@ -5,7 +5,8 @@ import lombok.Setter;
 import lombok.ToString;
 
 import javax.persistence.*;
-import java.util.Date;
+import java.time.LocalDateTime;
+import java.util.*;
 
 @Entity
 @Table(name = "member")
@@ -13,21 +14,33 @@ import java.util.Date;
 @Setter
 @ToString
 //@SequenceGenerator(name = "member_seq_generator", sequenceName = "member_seq")
-public class Member extends BaseEntity{
+public class Member {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "member_id")
     private Long id;
-    @Column(name = "name")
+    @Column(name = "username")
     private String username;
 
-    @ManyToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "team_id")
-    private Team team;
+    @Embedded
+    private Address homeAddress;
 
-    @OneToOne
-    @JoinColumn(name = "locker_id")
-    private Locker locker;
+    @ElementCollection
+    @CollectionTable(name = "favorite_food", joinColumns =
+        @JoinColumn(name = "member_id")
+    )
+    @Column(name = "food_name")
+    private Set<String> favoriteFoods = new HashSet<>();
+
+//    @ElementCollection
+//    @CollectionTable(name = "address", joinColumns =
+//        @JoinColumn(name = "member_id")
+//    )
+//    private List<Address> addressHistory = new ArrayList<>();
+
+    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
+    @JoinColumn(name = "member_id")
+    private List<AddressEntity> addressHistory = new ArrayList<>();
 
     public Member(){}
 

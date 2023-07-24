@@ -23,7 +23,6 @@ public class JpaMain {
             Book book = new Book();
             book.setName("JPA");
             book.setAuthor("kim");
-            book.setIsbn("kkkkk");
             em.persist(book);
 
             tx.commit();
