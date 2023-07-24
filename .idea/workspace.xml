@@ -5,26 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6473daba-e7d4-4dbf-92de-8dcf69b5ea19" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/server/hello-jpa/src/main/java/com/seungh1024/Album.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/hello-jpa/src/main/java/com/seungh1024/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/hello-jpa/src/main/java/com/seungh1024/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/hello-jpa/src/main/java/com/seungh1024/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/hello-jpa/src/main/java/com/seungh1024/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/jpa-shop/src/main/java/com/seungh1024/domain/Album.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/jpa-shop/src/main/java/com/seungh1024/domain/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/jpa-shop/src/main/java/com/seungh1024/domain/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/jpa-shop/src/main/java/com/seungh1024/domain/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/hello-jpa/src/main/java/com/seungh1024/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/hello-jpa/src/main/java/com/seungh1024/Parent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/hello-jpa/src/main/java/com/seungh1024/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/hello-jpa/src/main/java/com/seungh1024/JpaMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/hello-jpa/src/main/java/com/seungh1024/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/hello-jpa/src/main/java/com/seungh1024/Member.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/hello-jpa/src/main/java/com/seungh1024/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/hello-jpa/src/main/java/com/seungh1024/Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/jpa-shop/src/main/java/com/seungh1024/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/jpa-shop/src/main/java/com/seungh1024/JpaMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/jpa-shop/src/main/java/com/seungh1024/domain/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/jpa-shop/src/main/java/com/seungh1024/domain/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/jpa-shop/src/main/java/com/seungh1024/domain/Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/jpa-shop/src/main/java/com/seungh1024/domain/Delivery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/jpa-shop/src/main/java/com/seungh1024/domain/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/jpa-shop/src/main/java/com/seungh1024/domain/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/jpa-shop/src/main/java/com/seungh1024/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/jpa-shop/src/main/java/com/seungh1024/domain/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/jpa-shop/src/main/java/com/seungh1024/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/jpa-shop/src/main/java/com/seungh1024/domain/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/jpa-shop/src/main/java/com/seungh1024/domain/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/jpa-shop/src/main/java/com/seungh1024/domain/OrderItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +81,7 @@
       <recent name="$PROJECT_DIR$/server/jpa-shop/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.seungh1024.JpaMain">
+  <component name="RunManager" selected="Application.JpaMain">
     <configuration name="JpaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.seungh1024.JpaMain" />
       <module name="JPA-Study.server-hello-jpa.main" />
@@ -163,7 +149,7 @@
       <workItem from="1689757233418" duration="6482000" />
       <workItem from="1689824495323" duration="4878000" />
       <workItem from="1689854516560" duration="5677000" />
-      <workItem from="1690028518435" duration="3987000" />
+      <workItem from="1690028518435" duration="9325000" />
     </task>
     <servers />
   </component>

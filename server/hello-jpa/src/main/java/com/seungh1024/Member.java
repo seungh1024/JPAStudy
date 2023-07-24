@@ -21,7 +21,7 @@ public class Member extends BaseEntity{
     @Column(name = "name")
     private String username;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "team_id")
     private Team team;
 
