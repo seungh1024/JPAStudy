@@ -16,6 +16,8 @@ public class Delivery extends BaseEntity{
     private Order order;
 
     private Address address;
+
+    @Enumerated(EnumType.STRING)
     private DeliveryStatus status;
 
     public Delivery(Order order, Address address, DeliveryStatus status){
