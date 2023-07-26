@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6473daba-e7d4-4dbf-92de-8dcf69b5ea19" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/jpql/src/main/java/com/seungh1024/JpaMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/jpql/src/main/java/com/seungh1024/dialect/MyH2Dialect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/jpql/src/main/java/com/seungh1024/domain/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/jpql/src/main/java/com/seungh1024/domain/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/jpql/src/main/java/com/seungh1024/domain/MemberDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/jpql/src/main/java/com/seungh1024/domain/MemberType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/jpql/src/main/java/com/seungh1024/domain/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/jpql/src/main/java/com/seungh1024/domain/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/jpql/src/main/java/com/seungh1024/domain/Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/hello-jpa/src/main/java/com/seungh1024/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/hello-jpa/src/main/java/com/seungh1024/JpaMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/jpa-shop/src/main/java/com/seungh1024/domain/Delivery.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/jpa-shop/src/main/java/com/seungh1024/domain/Delivery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/jpql/src/main/java/com/seungh1024/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/jpql/src/main/java/com/seungh1024/JpaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/jpql/src/main/java/com/seungh1024/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/jpql/src/main/java/com/seungh1024/domain/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +186,11 @@
       <workItem from="1689854516560" duration="5677000" />
       <workItem from="1690028518435" duration="17124000" />
       <workItem from="1690254614457" duration="5466000" />
-      <workItem from="1690269106672" duration="3581000" />
+      <workItem from="1690269106672" duration="3914000" />
+      <workItem from="1690342540239" duration="401000" />
+      <workItem from="1690343018062" duration="3540000" />
+      <workItem from="1690349663428" duration="535000" />
+      <workItem from="1690356704325" duration="1576000" />
     </task>
     <servers />
   </component>
